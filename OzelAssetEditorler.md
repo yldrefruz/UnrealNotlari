@@ -73,9 +73,9 @@ const TSharedRef<FTabManager::FLayout> StandaloneDefaultLayout = FTabManager::Ne
 Burada kullanılan isim şu şekilde olması tavsiye edilir `"Standalone_AssetEditorİsmi_Layout_vX.X"` AssetEditorİsmi için şu anda kullandığımız BasitAssetDuzenleyiciyi ile `"Standalone_AssetEditorİsmi_Layout_v1.0"` elde edilir. Burada v1.0 yazmamızın sebebi Unreal Engine her düzen için kayıt sistemine sahiptir. Bunun sayesinde Viewportun boyutunu değiştirip motoru kapatıp açtığınız zaman aynı düzen geri gelmektedir. Burada v1.0'ı değiştirerek bu kayıtın geçersiz olmasını ve yeniden düzen hesaplanmasını yapmasını sağlayabiliriz.
 
 Layoutlar ağaç şeklinde düşünülebilir
-![](images/UnrealEngine-Editor-Layout-System.png)
+![](Images/UnrealEngine-Editor-Layout-System.png)
 bu şeklin oluşturduğu layout şudur
-![](images/behavior-tree-layout.png)
+![](Images/behavior-tree-layout.png)
 
 Bu layoutun kullandığı kod ise budur:
 ```cpp
